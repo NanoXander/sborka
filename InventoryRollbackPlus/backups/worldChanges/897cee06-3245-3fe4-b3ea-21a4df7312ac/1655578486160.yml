@@ -1,0 +1,20 @@
+inventory: |
+  rO0ABXcEAAAAKXBwcHNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAAD
+  bWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11
+  dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09i
+  amVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhw
+  AAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRl
+  bVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxh
+  bmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAC590AAdCRURST0NLcHBwcHBwcHBwcHBwcHBwcHBwcHBw
+  cHBwcHBwcHBwcHBwcHBwcA==
+xp: 0.0
+health: 20.0
+hunger: 20
+saturation: 5.0
+location:
+  world: world
+  x: 2363.2
+  y: 52.0
+  z: 1913.2
+logType: WORLD_CHANGE
+version: v1_18_R2

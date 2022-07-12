@@ -1,0 +1,12 @@
+xp: 0.0
+health: 0.16666698455810547
+hunger: 17
+saturation: 0.0
+location:
+  world: world
+  x: -788.4
+  y: 64.4
+  z: -2932.5
+logType: DEATH
+version: v1_18_R2
+deathReason: FIRE

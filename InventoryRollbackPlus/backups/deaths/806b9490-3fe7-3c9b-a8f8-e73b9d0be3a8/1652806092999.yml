@@ -1,0 +1,12 @@
+xp: 5.0
+health: 1.5
+hunger: 16
+saturation: 0.0
+location:
+  world: world
+  x: 606.8
+  y: 62.3
+  z: -325.9
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (Iron Golem)

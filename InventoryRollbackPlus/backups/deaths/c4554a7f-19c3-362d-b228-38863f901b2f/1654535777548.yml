@@ -1,0 +1,12 @@
+xp: 0.0
+health: 2.999998092651367
+hunger: 6
+saturation: 0.0
+location:
+  world: world
+  x: -969.3
+  y: 62.0
+  z: 215.5
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (Spider)

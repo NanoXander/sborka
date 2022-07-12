@@ -1,0 +1,43 @@
+info:
+  namespace: "itemsadder"
+font_images:
+  customization_table_left:
+    suggest_in_command: false
+    path: "gui/customization_table_left.png"
+    y_position: 12
+  customization_table_right:
+    suggest_in_command: false
+    path: "gui/customization_table_right.png"
+    y_position: 12
+  energy_extractor_left:
+    suggest_in_command: false
+    path: "gui/energy_extractor_left.png"
+    y_position: 12
+  energy_extractor_right:
+    suggest_in_command: false
+    path: "gui/energy_extractor_right.png"
+    y_position: 12
+  energy_converter_left:
+    suggest_in_command: false
+    path: "gui/energy_converter_left.png"
+    y_position: 12
+  energy_converter_right:
+    suggest_in_command: false
+    path: "gui/energy_converter_right.png"
+    y_position: 12
+  vending_machine_left:
+    suggest_in_command: false
+    path: "gui/vending_machine_left.png"
+    y_position: 12
+  vending_machine_right:
+    suggest_in_command: false
+    path: "gui/vending_machine_right.png"
+    y_position: 12
+  coffee_machine_left:
+    suggest_in_command: false
+    path: "gui/coffee_machine_left.png"
+    y_position: 12
+  coffee_machine_right:
+    suggest_in_command: false
+    path: "gui/coffee_machine_right.png"
+    y_position: 12

@@ -1,0 +1,21 @@
+inventory: |
+  rO0ABXcEAAAAKXBwcHBwcHBwcHBzcgAab3JnLmJ1a2tpdC51dGlsLmlvLldyYXBwZXLyUEfs8RJv
+  BQIAAUwAA21hcHQAD0xqYXZhL3V0aWwvTWFwO3hwc3IANWNvbS5nb29nbGUuY29tbW9uLmNvbGxl
+  Y3QuSW1tdXRhYmxlTWFwJFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAJMAARrZXlzdAASTGphdmEv
+  bGFuZy9PYmplY3Q7TAAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBz
+  KWwCAAB4cAAAAAR0AAI9PXQAAXZ0AAR0eXBldAAGYW1vdW50dXEAfgAGAAAABHQAHm9yZy5idWtr
+  aXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAF
+  dmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAufdAAKUkFXX0NPUFBFUnNx
+  AH4ADgAAADBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHA=
+xp: 0.0
+health: 0.5
+hunger: 6
+saturation: 0.0
+location:
+  world: world
+  x: 597.8
+  y: 63.0
+  z: -328.0
+logType: DEATH
+version: v1_18_R2
+deathReason: PROJECTILE (Llama Spit, Trader Llama)

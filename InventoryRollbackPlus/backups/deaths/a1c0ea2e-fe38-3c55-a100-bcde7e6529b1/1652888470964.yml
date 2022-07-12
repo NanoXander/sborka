@@ -1,0 +1,12 @@
+xp: 7.0
+health: 0.9999980926513672
+hunger: 17
+saturation: 0.0
+location:
+  world: world
+  x: 614.1
+  y: 59.0
+  z: -361.3
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (Zombie)

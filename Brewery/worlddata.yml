@@ -1,0 +1,100 @@
+BCauldron:
+  242a70ba-df5f-4ad5-a2a9-d7b1515f9a02: {}
+  97506b58-e956-4552-830f-4581d72dd3a6: {}
+  16fde0ea-d2a8-4e35-b45a-bf36c7b2ab4d: {}
+Barrel:
+  242a70ba-df5f-4ad5-a2a9-d7b1515f9a02:
+    '0':
+      spigot: 2460/73/582
+      bounds: 2458,73,582,2459,74,583
+    '1':
+      spigot: 2460/71/582
+      bounds: 2458,71,582,2459,72,583
+    '2':
+      spigot: 2460/71/586
+      bounds: 2458,71,586,2459,72,587
+    '3':
+      spigot: 2460/71/584
+      bounds: 2458,71,584,2459,72,585
+    '4':
+      spigot: -1011/78/283
+      sign: 2
+      bounds: -1012,78,284,-1010,80,287
+      time: 642.56665
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: FILLED_MAP
+          meta:
+            ==: ItemMeta
+            meta-type: MAP
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Death
+              Location"}],"text":""}'
+            lore:
+            - '{"italic":false,"color":"white","text":"RunishYT"}'
+            map-id: 1638
+            display-map-color:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: FILLED_MAP
+          meta:
+            ==: ItemMeta
+            meta-type: MAP
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Death
+              Location"}],"text":""}'
+            lore:
+            - '{"italic":false,"color":"white","text":"RunishYT"}'
+            map-id: 1637
+            display-map-color:
+              ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: WHEAT_SEEDS
+          amount: 13
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: WHEAT
+          amount: 4
+        '4':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: POTATO
+          amount: 5
+        '5':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: COBBLESTONE_STAIRS
+          amount: 8
+        '6':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: COBBLESTONE
+          amount: 2
+        '7':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: ENDER_PEARL
+          amount: 8
+        '8':
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: ARROW
+          amount: 63
+  97506b58-e956-4552-830f-4581d72dd3a6: {}
+  16fde0ea-d2a8-4e35-b45a-bf36c7b2ab4d: {}
+Worlds:
+  242a70ba-df5f-4ad5-a2a9-d7b1515f9a02: world
+  97506b58-e956-4552-830f-4581d72dd3a6: world_nether
+  b18fb0d7-e3f9-4dd0-92c4-dd8470696032: world_the_end
+  16fde0ea-d2a8-4e35-b45a-bf36c7b2ab4d: world_the_end

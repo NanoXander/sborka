@@ -1,0 +1,12 @@
+xp: 0.0
+health: 7.112322807312012
+hunger: 20
+saturation: 0.0
+location:
+  world: world
+  x: 186.1
+  y: 62.3
+  z: 248.3
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (saikonohack)

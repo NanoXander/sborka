@@ -1,0 +1,62 @@
+info:
+  namespace: myitems
+items:
+  ore_star_shard:
+    display_name: Залеж звездных осколков
+    permission: ore_shard
+    resource:
+      material: ANCIENT_DEBRIS
+      generate: true
+      textures:
+      - item/star_shard.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_ORE
+        cancel_drop: true
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+	- STONE_PICKAXE
+	- IRON_PICKAXE        
+        break_tools_whitelist:
+        - PICKAXE
+        - DIAMOND_PICKAXE
+  star_shard:
+    display_name: Звездный Осколок
+    permission: shard
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/serebro_slitok.png
+worlds_populators:
+  custom_block: 
+    block: myitems:ore_star_shard #Индификатор нашего блока
+    worlds: #Миры где будет генерация
+    - world_the_end
+    replaceable_blocks: #Блоки которые будут заменены, если удалить будет производиться замена всех блоков без проверок
+    - END_STONE
+    chance: 100 #Шанс генерации максимум 100
+    max_height: 45 #Максимальная восота генерации
+    min_height: 25 #Минимальная высота генерации
+    amount: 1 #Количество блоков в жиле
+    iterations: 1 #Количество жил
+loots:
+  blocks:
+    ore_star_shard:
+      type: myitems:ore_star_shard
+      items:
+        star_shard:
+          item: myitems:star_shard
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+	  ignore_fortune: true
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+

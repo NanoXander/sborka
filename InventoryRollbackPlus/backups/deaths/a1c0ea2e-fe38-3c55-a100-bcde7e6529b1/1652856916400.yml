@@ -1,0 +1,12 @@
+xp: 0.0
+health: 1.9073486328125E-6
+hunger: 13
+saturation: 0.0
+location:
+  world: world
+  x: 622.9
+  y: 64.3
+  z: -294.5
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (_MagicShadow_)

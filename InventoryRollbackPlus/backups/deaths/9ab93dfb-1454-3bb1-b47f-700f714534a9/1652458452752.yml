@@ -1,0 +1,12 @@
+xp: 0.0
+health: 8.489287376403809
+hunger: 17
+saturation: 0.0
+location:
+  world: world
+  x: -1074.5
+  y: 67.4
+  z: 402.1
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (RunishYT)

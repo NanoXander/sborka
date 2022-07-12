@@ -1,0 +1,12 @@
+xp: 201.0
+health: 3.5999999046325684
+hunger: 20
+saturation: 2.4000006
+location:
+  world: world_nether
+  x: -450.6
+  y: 60.0
+  z: -808.6
+logType: DEATH
+version: v1_18_R2
+deathReason: LAVA

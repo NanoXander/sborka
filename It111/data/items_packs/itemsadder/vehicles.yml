@@ -1,0 +1,904 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    shopping_cart:
+      permission: itemsadder.shopping_cart
+      enabled: true
+      pattern:
+      - OXO
+      - OOO
+      - WBW
+      ingredients:
+        O: IRON_BARS
+        W: itemsadder:plastic_plate
+        B: BLACK_DYE
+      result:
+        item: itemsadder:shopping_cart
+        amount: 1
+    white_go_cart:
+      permission: itemsadder.white_go_cart
+      enabled: true
+      pattern:
+      - ORO
+      - OOO
+      - WBW
+      ingredients:
+        O: IRON_BLOCK
+        W: itemsadder:plastic_plate
+        B: BLACK_DYE
+        R: REDSTONE_BLOCK
+      result:
+        item: itemsadder:white_go_cart
+        amount: 1
+    oak_wood_plane:
+      permission: itemsadder.oak_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: OAK_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:oak_wood_plane
+        amount: 1
+    spruce_wood_plane:
+      permission: itemsadder.spruce_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: SPRUCE_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:spruce_wood_plane
+        amount: 1
+    birch_wood_plane:
+      permission: itemsadder.birch_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: BIRCH_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:birch_wood_plane
+        amount: 1
+    jungle_wood_plane:
+      permission: itemsadder.jungle_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: JUNGLE_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:jungle_wood_plane
+        amount: 1
+    acacia_wood_plane:
+      permission: itemsadder.acacia_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: ACACIA_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:acacia_wood_plane
+        amount: 1
+    dark_oak_wood_plane:
+      permission: itemsadder.dark_oak_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: DARK_OAK_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:dark_oak_wood_plane
+        amount: 1
+    ufo:
+      permission: itemsadder.ufo
+      enabled: true
+      pattern:
+      - ELE
+      - RSR
+      - BXB
+      ingredients:
+        S: SLIME_BLOCK
+        R: REDSTONE_BLOCK
+        B: SLIME_BALL
+        L: LEVER
+        E: itemsadder:small_energy_capsule
+      result:
+        item: itemsadder:ufo
+        amount: 1
+items:
+  shopping_cart:
+    display_name: display-name-shopping_cart
+    permission: shopping_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/shopping_cart
+    behaviours:
+      vehicle:
+        sit_height: 2
+        step_height: 0.1
+        hitbox:
+          length: 2
+          width: 2.3
+          height: 1
+        speed:
+          drive: 0.3
+          jump: 0.3
+        fuel:
+          start: 60
+          max: 300
+          items:
+            banana: 30
+            pear: 30
+  white_go_cart:
+    display_name: display-name-white_go_cart
+    permission: white_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/white_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  orange_go_cart:
+    display_name: display-name-orange_go_cart
+    permission: orange_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/orange_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  magenta_go_cart:
+    display_name: display-name-magenta_go_cart
+    permission: magenta_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/magenta_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  light_blue_go_cart:
+    display_name: display-name-light_blue_go_cart
+    permission: light_blue_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/light_blue_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  yellow_go_cart:
+    display_name: display-name-yellow_go_cart
+    permission: yellow_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/yellow_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  lime_go_cart:
+    display_name: display-name-lime_go_cart
+    permission: lime_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lime_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  pink_go_cart:
+    display_name: display-name-pink_go_cart
+    permission: pink_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pink_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  gray_go_cart:
+    display_name: display-name-gray_go_cart
+    permission: gray_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/gray_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  light_gray_go_cart:
+    display_name: display-name-light_gray_go_cart
+    permission: light_gray_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/light_gray_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  cyan_go_cart:
+    display_name: display-name-cyan_go_cart
+    permission: cyan_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/cyan_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  purple_go_cart:
+    display_name: display-name-purple_go_cart
+    permission: purple_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/purple_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  blue_go_cart:
+    display_name: display-name-blue_go_cart
+    permission: blue_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/blue_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  brown_go_cart:
+    display_name: display-name-brown_go_cart
+    permission: brown_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/brown_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  green_go_cart:
+    display_name: display-name-green_go_cart
+    permission: green_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/green_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  red_go_cart:
+    display_name: display-name-red_go_cart
+    permission: red_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/red_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  black_go_cart:
+    display_name: display-name-black_go_cart
+    permission: black_go_cart
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/black_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        hitbox:
+          length: 1.7
+          width: 1.7
+          height: 1.7
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 0
+            z: -0.8
+  oak_wood_plane:
+    display_name: display-name-oak_wood_plane
+    permission: oak_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/oak_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 1
+            z: -2
+  spruce_wood_plane:
+    display_name: display-name-spruce_wood_plane
+    permission: spruce_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/spruce_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 1
+            z: -2
+  birch_wood_plane:
+    display_name: display-name-birch_wood_plane
+    permission: birch_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/birch_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 1
+            z: -2
+  jungle_wood_plane:
+    display_name: display-name-jungle_wood_plane
+    permission: jungle_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/jungle_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 1
+            z: -2
+  acacia_wood_plane:
+    display_name: display-name-acacia_wood_plane
+    permission: acacia_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/acacia_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 1
+            z: -2
+  dark_oak_wood_plane:
+    display_name: display-name-dark_oak_wood_plane
+    permission: dark_oak_wood_plane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/dark_oak_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+        smoke:
+          amount: 2
+          offset:
+            x: 0
+            y: 1
+            z: -2
+  ufo:
+    display_name: display-name-ufo
+    permission: ufo
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/ufo
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 1000
+          items:
+            energy_orb: 2
+            small_energy_capsule: 16
+            energy_capsule: 128
+  broomstick:
+    display_name: display-name-broomstick
+    permission: broomstick
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/broomstick
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        hitbox:
+          length: 5
+          width: 1.7
+          height: 5
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 1000
+          items:
+            energy_orb: 2
+            small_energy_capsule: 16
+            energy_capsule: 128

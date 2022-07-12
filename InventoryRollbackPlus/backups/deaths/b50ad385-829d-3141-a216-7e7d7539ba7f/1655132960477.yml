@@ -1,0 +1,12 @@
+xp: 0.0
+health: 4.666667938232422
+hunger: 17
+saturation: 0.0
+location:
+  world: world
+  x: 163.4
+  y: 67.0
+  z: 85.8
+logType: DEATH
+version: v1_18_R2
+deathReason: FALL

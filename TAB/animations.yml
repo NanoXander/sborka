@@ -1,0 +1,115 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '§x§f§f§0§0§0§0-&8--------------'
+  - '&8-§x§f§f§3§6§0§0-&8-------------'
+  - '&8--§x§f§f§6§d§0§0-&8------------'
+  - '&8---§x§f§f§a§4§0§0-&8-----------'
+  - '&8----§x§f§f§d§a§0§0-&8----------'
+  - '&8-----§x§d§b§f§f§0§0-&8---------'
+  - '&8------§x§6§d§f§f§0§0-&8--------'
+  - '&8-------§x§0§0§f§f§0§0-&8-------'
+  - '&8--------§x§0§0§9§2§6§d-&8------'
+  - '&8---------§x§0§0§2§4§d§b-&8-----'
+  - '&8----------§x§1§5§0§0§d§b-&8----'
+  - '&8-----------§x§3§6§0§0§a§6-&8---'
+  - '&8------------§x§5§5§0§0§8§e-&8--'
+  - '&8-------------§x§7§5§0§0§b§0-&8-'
+  - '&8--------------§x§9§4§0§0§d§3-'
+  - '&8-------------§x§9§4§0§0§d§3-&8-'
+  - '&8------------§x§7§5§0§0§b§0-&8--'
+  - '&8-----------§x§5§5§0§0§8§e-&8---'
+  - '&8----------§x§3§6§0§0§a§6-&8----'
+  - '&8---------§x§1§5§0§0§d§b-&8-----'
+  - '&8--------§x§0§0§2§4§d§b-&8------'
+  - '&8-------§x§0§0§9§2§6§d-&8-------'
+  - '&8------§x§0§0§f§f§0§0-&8--------'
+  - '&8-----§x§6§d§f§f§0§0-&8---------'
+  - '&8----§x§d§b§f§f§0§0-&8----------'
+  - '&8---§x§f§f§d§a§0§0-&8-----------'
+  - '&8--§x§f§f§a§4§0§0-&8------------'
+  - '&8-§x§f§f§6§d§0§0-&8-------------'
+  - '§x§f§f§3§6§0§0-&8--------------'
+
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 100
+  texts:
+  - '§x§0§8§4§c§f§bn§x§0§8§5§a§f§aa§x§0§9§6§9§f§an§x§0§9§7§7§f§9o§x§0§a§8§6§f§9x§x§0§a§9§4§f§8a§x§0§b§a§3§f§8n§x§0§b§b§1§f§7d§x§0§b§b§f§f§6e§x§0§c§c§e§f§6r§x§0§c§d§c§f§5.§x§0§d§e§b§f§5r§x§0§d§f§9§f§4u'
+  - '§x§0§7§5§8§f§an§x§0§7§6§6§f§9a§x§0§7§7§3§f§7n§x§0§7§8§1§f§6o§x§0§7§8§e§f§5x§x§0§7§9§c§f§3a§x§0§7§a§9§f§2n§x§0§7§b§7§f§1d§x§0§7§c§4§e§fe§x§0§7§d§2§e§er§x§0§7§d§f§e§d.§x§0§7§e§d§e§br§x§0§7§f§a§e§au'
+  - '§x§0§7§6§8§f§an§x§0§7§7§4§f§aa§x§0§7§8§0§f§an§x§0§7§8§d§f§ao§x§0§7§9§9§f§ax§x§0§7§a§5§f§aa§x§0§7§b§1§f§an§x§0§7§b§d§f§ad§x§0§7§c§9§f§ae§x§0§7§d§6§f§ar§x§0§7§e§2§f§a.§x§0§7§e§e§f§ar§x§0§7§f§a§f§au'
+  - '§x§0§7§7§9§f§an§x§0§7§8§2§f§aa§x§0§7§8§c§f§an§x§0§7§9§5§f§ao§x§0§7§9§f§f§ax§x§0§7§a§8§f§aa§x§0§7§b§2§f§an§x§0§7§b§b§f§ad§x§0§7§c§4§f§ae§x§0§7§c§e§f§ar§x§0§7§d§7§f§a.§x§0§7§e§1§f§ar§x§0§7§e§a§f§au'
+  - '§x§0§7§8§5§f§an§x§0§7§8§c§f§aa§x§0§7§9§4§f§an§x§0§7§9§b§f§ao§x§0§7§a§3§f§ax§x§0§7§a§a§f§aa§x§0§7§b§2§f§an§x§0§7§b§9§f§ad§x§0§7§c§0§f§ae§x§0§7§c§8§f§ar§x§0§7§c§f§f§a.§x§0§7§d§7§f§ar§x§0§7§d§e§f§au'
+  - '§x§0§7§9§5§f§an§x§0§7§9§a§f§aa§x§0§7§9§e§f§an§x§0§7§a§3§f§ao§x§0§7§a§8§f§ax§x§0§7§a§c§f§aa§x§0§7§b§1§f§an§x§0§7§b§6§f§ad§x§0§7§b§a§f§ae§x§0§7§b§f§f§ar§x§0§7§c§4§f§a.§x§0§7§c§8§f§ar§x§0§7§c§d§f§au'
+  - '§x§0§7§a§1§f§an§x§0§7§a§4§f§aa§x§0§7§a§6§f§an§x§0§7§a§9§f§ao§x§0§7§a§c§f§ax§x§0§7§a§e§f§aa§x§0§7§b§1§f§an§x§0§7§b§4§f§ad§x§0§7§b§6§f§ae§x§0§7§b§9§f§ar§x§0§7§b§c§f§a.§x§0§7§b§e§f§ar§x§0§7§c§1§f§au'
+  - '§x§0§7§b§1§f§an§x§0§7§b§1§f§aa§x§0§7§b§1§f§an§x§0§7§b§1§f§ao§x§0§7§b§1§f§ax§x§0§7§b§1§f§aa§x§0§7§b§1§f§an§x§0§7§b§1§f§ad§x§0§7§b§1§f§ae§x§0§7§b§1§f§ar§x§0§7§b§1§f§a.§x§0§7§b§1§f§ar§x§0§7§b§1§f§au'
+  - '§x§0§7§c§1§f§an§x§0§7§b§e§f§aa§x§0§7§b§c§f§an§x§0§7§b§9§f§ao§x§0§7§b§6§f§ax§x§0§7§b§4§f§aa§x§0§7§b§1§f§an§x§0§7§a§e§f§ad§x§0§7§a§c§f§ae§x§0§7§a§9§f§ar§x§0§7§a§6§f§a.§x§0§7§a§4§f§ar§x§0§7§a§1§f§au'
+  - '§x§0§7§c§d§f§an§x§0§7§c§8§f§aa§x§0§7§c§4§f§an§x§0§7§b§f§f§ao§x§0§7§b§a§f§ax§x§0§7§b§6§f§aa§x§0§7§b§1§f§an§x§0§7§a§c§f§ad§x§0§7§a§8§f§ae§x§0§7§a§3§f§ar§x§0§7§9§e§f§a.§x§0§7§9§a§f§ar§x§0§7§9§5§f§au'
+  - '§x§0§7§d§e§f§an§x§0§7§d§7§f§aa§x§0§7§c§f§f§an§x§0§7§c§8§f§ao§x§0§7§c§0§f§ax§x§0§7§b§9§f§aa§x§0§7§b§2§f§an§x§0§7§a§a§f§ad§x§0§7§a§3§f§ae§x§0§7§9§b§f§ar§x§0§7§9§4§f§a.§x§0§7§8§c§f§ar§x§0§7§8§5§f§au'
+  - '§x§0§7§e§a§f§an§x§0§7§e§1§f§aa§x§0§7§d§7§f§an§x§0§7§c§e§f§ao§x§0§7§c§4§f§ax§x§0§7§b§b§f§aa§x§0§7§b§2§f§an§x§0§7§a§8§f§ad§x§0§7§9§f§f§ae§x§0§7§9§5§f§ar§x§0§7§8§c§f§a.§x§0§7§8§2§f§ar§x§0§7§7§9§f§au'
+  - '§x§0§7§f§a§f§an§x§0§7§e§e§f§aa§x§0§7§e§2§f§an§x§0§7§d§6§f§ao§x§0§7§c§9§f§ax§x§0§7§b§d§f§aa§x§0§7§b§1§f§an§x§0§7§a§5§f§ad§x§0§7§9§9§f§ae§x§0§7§8§d§f§ar§x§0§7§8§0§f§a.§x§0§7§7§4§f§ar§x§0§7§6§8§f§au'
+  - '§x§0§7§f§a§e§an§x§0§7§e§d§e§ba§x§0§7§d§f§e§dn§x§0§7§d§2§e§eo§x§0§7§c§4§e§fx§x§0§7§b§7§f§1a§x§0§7§a§9§f§2n§x§0§7§9§c§f§3d§x§0§7§8§e§f§5e§x§0§7§8§1§f§6r§x§0§7§7§3§f§7.§x§0§7§6§6§f§9r§x§0§7§5§8§f§au'
+  - '§x§0§d§f§9§f§4n§x§0§d§e§b§f§5a§x§0§c§d§c§f§5n§x§0§c§c§e§f§6o§x§0§b§b§f§f§6x§x§0§b§b§1§f§7a§x§0§b§a§3§f§8n§x§0§a§9§4§f§8d§x§0§a§8§6§f§9e§x§0§9§7§7§f§9r§x§0§9§6§9§f§a.§x§0§8§5§a§f§ar§x§0§8§4§c§f§bu'
+  - '§x§0§d§f§9§f§4n§x§0§d§e§b§f§5a§x§0§c§d§c§f§5n§x§0§c§c§e§f§6o§x§0§b§b§f§f§6x§x§0§b§b§1§f§7a§x§0§b§a§3§f§8n§x§0§a§9§4§f§8d§x§0§a§8§6§f§9e§x§0§9§7§7§f§9r§x§0§9§6§9§f§a.§x§0§8§5§a§f§ar§x§0§8§4§c§f§bu'
+  - '§x§0§7§f§a§e§an§x§0§7§e§d§e§ba§x§0§7§d§f§e§dn§x§0§7§d§2§e§eo§x§0§7§c§4§e§fx§x§0§7§b§7§f§1a§x§0§7§a§9§f§2n§x§0§7§9§c§f§3d§x§0§7§8§e§f§5e§x§0§7§8§1§f§6r§x§0§7§7§3§f§7.§x§0§7§6§6§f§9r§x§0§7§5§8§f§au'
+  - '§x§0§7§f§a§f§an§x§0§7§e§e§f§aa§x§0§7§e§2§f§an§x§0§7§d§6§f§ao§x§0§7§c§9§f§ax§x§0§7§b§d§f§aa§x§0§7§b§1§f§an§x§0§7§a§5§f§ad§x§0§7§9§9§f§ae§x§0§7§8§d§f§ar§x§0§7§8§0§f§a.§x§0§7§7§4§f§ar§x§0§7§6§8§f§au'
+  - '§x§0§7§e§a§f§an§x§0§7§e§1§f§aa§x§0§7§d§7§f§an§x§0§7§c§e§f§ao§x§0§7§c§4§f§ax§x§0§7§b§b§f§aa§x§0§7§b§2§f§an§x§0§7§a§8§f§ad§x§0§7§9§f§f§ae§x§0§7§9§5§f§ar§x§0§7§8§c§f§a.§x§0§7§8§2§f§ar§x§0§7§7§9§f§au'
+  - '§x§0§7§d§e§f§an§x§0§7§d§7§f§aa§x§0§7§c§f§f§an§x§0§7§c§8§f§ao§x§0§7§c§0§f§ax§x§0§7§b§9§f§aa§x§0§7§b§2§f§an§x§0§7§a§a§f§ad§x§0§7§a§3§f§ae§x§0§7§9§b§f§ar§x§0§7§9§4§f§a.§x§0§7§8§c§f§ar§x§0§7§8§5§f§au'
+  - '§x§0§7§c§d§f§an§x§0§7§c§8§f§aa§x§0§7§c§4§f§an§x§0§7§b§f§f§ao§x§0§7§b§a§f§ax§x§0§7§b§6§f§aa§x§0§7§b§1§f§an§x§0§7§a§c§f§ad§x§0§7§a§8§f§ae§x§0§7§a§3§f§ar§x§0§7§9§e§f§a.§x§0§7§9§a§f§ar§x§0§7§9§5§f§au'
+  - '§x§0§7§c§1§f§an§x§0§7§b§e§f§aa§x§0§7§b§c§f§an§x§0§7§b§9§f§ao§x§0§7§b§6§f§ax§x§0§7§b§4§f§aa§x§0§7§b§1§f§an§x§0§7§a§e§f§ad§x§0§7§a§c§f§ae§x§0§7§a§9§f§ar§x§0§7§a§6§f§a.§x§0§7§a§4§f§ar§x§0§7§a§1§f§au'
+  - '§x§0§7§b§1§f§an§x§0§7§b§1§f§aa§x§0§7§b§1§f§an§x§0§7§b§1§f§ao§x§0§7§b§1§f§ax§x§0§7§b§1§f§aa§x§0§7§b§1§f§an§x§0§7§b§1§f§ad§x§0§7§b§1§f§ae§x§0§7§b§1§f§ar§x§0§7§b§1§f§a.§x§0§7§b§1§f§ar§x§0§7§b§1§f§au'
+  - '§x§0§7§a§1§f§an§x§0§7§a§4§f§aa§x§0§7§a§6§f§an§x§0§7§a§9§f§ao§x§0§7§a§c§f§ax§x§0§7§a§e§f§aa§x§0§7§b§1§f§an§x§0§7§b§4§f§ad§x§0§7§b§6§f§ae§x§0§7§b§9§f§ar§x§0§7§b§c§f§a.§x§0§7§b§e§f§ar§x§0§7§c§1§f§au'
+  - '§x§0§7§9§5§f§an§x§0§7§9§a§f§aa§x§0§7§9§e§f§an§x§0§7§a§3§f§ao§x§0§7§a§8§f§ax§x§0§7§a§c§f§aa§x§0§7§b§1§f§an§x§0§7§b§6§f§ad§x§0§7§b§a§f§ae§x§0§7§b§f§f§ar§x§0§7§c§4§f§a.§x§0§7§c§8§f§ar§x§0§7§c§d§f§au'
+  - '§x§0§7§8§5§f§an§x§0§7§8§c§f§aa§x§0§7§9§4§f§an§x§0§7§9§b§f§ao§x§0§7§a§3§f§ax§x§0§7§a§a§f§aa§x§0§7§b§2§f§an§x§0§7§b§9§f§ad§x§0§7§c§0§f§ae§x§0§7§c§8§f§ar§x§0§7§c§f§f§a.§x§0§7§d§7§f§ar§x§0§7§d§e§f§au'
+  - '§x§0§7§7§9§f§an§x§0§7§8§2§f§aa§x§0§7§8§c§f§an§x§0§7§9§5§f§ao§x§0§7§9§f§f§ax§x§0§7§a§8§f§aa§x§0§7§b§2§f§an§x§0§7§b§b§f§ad§x§0§7§c§4§f§ae§x§0§7§c§e§f§ar§x§0§7§d§7§f§a.§x§0§7§e§1§f§ar§x§0§7§e§a§f§au'
+  - '§x§0§7§6§8§f§an§x§0§7§7§4§f§aa§x§0§7§8§0§f§an§x§0§7§8§d§f§ao§x§0§7§9§9§f§ax§x§0§7§a§5§f§aa§x§0§7§b§1§f§an§x§0§7§b§d§f§ad§x§0§7§c§9§f§ae§x§0§7§d§6§f§ar§x§0§7§e§2§f§a.§x§0§7§e§e§f§ar§x§0§7§f§a§f§au'
+  - '§x§0§7§5§8§f§an§x§0§7§6§6§f§9a§x§0§7§7§3§f§7n§x§0§7§8§1§f§6o§x§0§7§8§e§f§5x§x§0§7§9§c§f§3a§x§0§7§a§9§f§2n§x§0§7§b§7§f§1d§x§0§7§c§4§e§fe§x§0§7§d§2§e§er§x§0§7§d§f§e§d.§x§0§7§e§d§e§br§x§0§7§f§a§e§au'
+  - '§x§0§8§4§c§f§bn§x§0§8§5§a§f§aa§x§0§9§6§9§f§an§x§0§9§7§7§f§9o§x§0§a§8§6§f§9x§x§0§a§9§4§f§8a§x§0§b§a§3§f§8n§x§0§b§b§1§f§7d§x§0§b§b§f§f§6e§x§0§c§c§e§f§6r§x§0§c§d§c§f§5.§x§0§d§e§b§f§5r§x§0§d§f§9§f§4u'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+  - '&bServer TPS: &8%tps%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

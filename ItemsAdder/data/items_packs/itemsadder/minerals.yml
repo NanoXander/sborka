@@ -1,0 +1,26 @@
+info:
+  namespace: itemsadder
+loots:
+  blocks:
+    end_ore:
+      type: itemsadder:end_ore
+      items:
+        end_shard:
+          item: itemsadder:end_shard
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+items:
+  end_shard:
+    display_name: display-name-end_shard
+    permission: end_shard
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/end_shard.png

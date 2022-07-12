@@ -1,0 +1,40 @@
+[Tue, 31. May 2022 14:21:50 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:21:48 INFO  DiscordSRV] Enabling LuckPerms hook
+  [Tue 14:21:49 INFO  net.dv8tion.jda.api.JDA] Login Successful!
+  [Tue 14:21:49 INFO  net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket```
+[Tue, 31. May 2022 14:21:52 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:21:51 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:21:53 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:21:53 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:21:55 UTC | ID 981053940135256094] NXLabBot: ```diff
+- [Tue 14:21:53 ERROR net.dv8tion.jda.internal.requests.WebSocketClient] Encountered IDENTIFY Rate Limit!
+! [Tue 14:21:53 WARN  net.dv8tion.jda.internal.requests.WebSocketClient] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+  [Tue 14:21:54 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:21:56 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:21:56 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:21:58 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:21:57 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:01 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:00 INFO ] Unknown command. Type "/help" for help.
+  [Tue 14:22:00 INFO  net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket```
+[Tue, 31. May 2022 14:22:02 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:01 INFO  net.dv8tion.jda.api.JDA] Finished Loading!
+  [Tue 14:22:01 INFO  DiscordUtils] Successfully loaded 49 members in guild 𝐍𝐚𝐧𝐨 𝐗𝐚𝐧𝐝𝐞𝐫 🌺.
+  [Tue 14:22:01 INFO  DiscordUtils] Delayed roles check has been successfully enabled.
+  [Tue 14:22:01 INFO  DiscordUtils] Delayed names check has been successfully enabled.
+  [Tue 14:22:01 INFO  DiscordUtils] Bot has been successfully loaded.
+  [Tue 14:22:02 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:04 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:03 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:05 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:05 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:07 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:06 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:08 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:08 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:10 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:09 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:11 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:11 INFO ] Unknown command. Type "/help" for help.```
+[Tue, 31. May 2022 14:22:13 UTC | ID 981053940135256094] NXLabBot: ```diff
+  [Tue 14:22:12 INFO ] Unknown command. Type "/help" for help.```

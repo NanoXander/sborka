@@ -1,0 +1,12 @@
+xp: 0.0
+health: 1.3769068717956543
+hunger: 17
+saturation: 0.0
+location:
+  world: world
+  x: 601.5
+  y: 64.5
+  z: -322.0
+logType: DEATH
+version: v1_18_R2
+deathReason: ENTITY_ATTACK (Baganutiy)

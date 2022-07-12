@@ -1,0 +1,40 @@
+info:
+  namespace: itemsadder
+items:
+  end_ore:
+    display_name: display-name-end_ore
+    permission: end_ore
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/end_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: END_STONE
+        cancel_drop: true
+        light_level: 12
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        - IRON_PICKAXE
+        break_tools_whitelist:
+        - DIAMOND_PICKAXE
+        - PICKAXE
+        - pickaxe
+        - _hammer
+worlds_populators:
+  end_ore:
+    block: itemsadder:end_ore
+    worlds:
+    - world_the_end
+    replaceable_blocks:
+    - END_STONE
+    chance: 100.0
+    max_height: 40
+    min_height: 10
+    amount: 4
+    iterations: 1
